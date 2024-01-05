@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gavi</title>
+  <!-- ***********************Bootstrap ****************************** -->
+  <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+  <!-- ***********************Font Awesome *************************** -->
+  <link rel="stylesheet" href="css/fontAwesome/fontawesome-free-6.5.1-web/css/all.min.css">
+  <!-- ***********************AOS animation Library ******************** -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- ***********************General Style ************************** -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- ***********************Media aQuery Style ********************* -->
+  <link rel="stylesheet" href="css/media-query.css">
+</head>
+
+<body>
+  <!-- ************Contact Us *********** -->
+  <div class="contact">
+    <a href="#getIn"> Contact Us </a>
+  </div>
+  <!-- ***************************** Navbar************/******************** -->
+  <section id="navbar" class="container">
+    <nav class="nav-top p-4">
+      <div class="container mx-0">
+        <div class="row d-flex align-items-center justify-content-between">
+          <div class="col-4 logo">
+            <a href="#" class="">GAVI</a>
+          </div>
+          <div class="col-4 social-list">
+            <ul class="m-0 list-unstyled d-flex justify-content-around text-center">
+              <li>
+                <a href="#"><i class="fab fa-behance"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <div class="full-width info">
+              <div class="d-flex justify-content-end">
+                <a href="#">Gavi@website.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-butn bars-menu" id="hamburger">
+          <span class="pe-7s-menu"><i class="fa-solid fa-bars"></i></span>
+        </div>
+        <div class="small-nav-menu hide">
+          <ul class="p-0 my-4">
+            <li><a class="fs-3" href="">HOME</a></li>
+            <li><a class="fs-3" href="">SERVICES</a></li>
+            <li><a class="fs-3" href="">ABOUT</a></li>
+            <li><a class="fs-3" href="">PORTFOLIO</a></li>
+            <li><a class="fs-3" href=""> PRICE</a></li>
+            <li><a class="fs-3" href="">CONTACT</a></li>
+            <li><a class="fs-3" href="">BLOG</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- ********************** HERO Section************************** -->
+  <section id="hero" class="container">
+    <div class="row py-5">
+      <div class="card-container col-lg-4 col-sm-12 rounded">
+        <div class="card px-4  py-4 align-items-center justify-content-center text-center bg-transparent">
+          <img src="images/Hero/profile.jpg" class="profile-pic card-img-top rounded-0" alt="...">
+          <span class="icon"><img src="images/Hero/icon1.png" class="figma-pic card-img-top rounded-0" alt="..."></span>
+          <span class="icon"> <img src="images/Hero/icon2.png" class="github-pic card-img-top rounded-0"
+              alt="..."></span>
+          <span class="icon"><img src="images/Hero/icon4.png" class="browse-pic card-img-top rounded-0"
+              alt="..."></span>
+          <div class="card-text my-3">
+            <h3>Pablo Gavi</h3>
+            <p>AVAILABLE FOR FREELANCE</p>
+          </div>
+          <div class="social-list-profile">
+            <ul class="d-flex justify-content-center align-items-center mb-0 ps-0">
+              <li class="mx-2 "><a class=" border rounded" href=""><i class="px-3 py-3 fa-brands fa-behance"></i></a>
+              </li>
+              <li class="mx-2 "><a class=" border rounded" href=""><i class="px-3 py-3 fa-brands fa-github"></i></a>
+              </li>
+              <li class="mx-2 "><a class=" border rounded" href=""><i
+                    class="px-3 py-3 fa-brands fa-linkedin-in"></i></a></li>
+              <li class="mx-2 "><a class=" border rounded" href=""><i class="px-3 py-3 fa-brands fa-dribbble"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="welcome-info col-lg-7 col-sm-12">
+        <h1>Hello, I’m <span class="lemon-colored">Pablo Gavi</span>, Front-end Developer and <span
+            class="role-border px-2 d-inline-block"><span class="role-dots"></span>UX / UI Designer</span> Based in
+          California.</h1>
+        <div class="hero-rate row align-items-center justify-content-between">
+          <div class="experience me-1 d-flex align-items-center col-sm-12 col-md-4 col-lg-4">
+            <p>14</p>
+            <p class="mb-0 ps-2">Years <br> of Experience</p>
+          </div>
+          <div class="clients me-1 d-flex align-items-center col-sm-12 col-md-4 col-lg-4">
+            <p>6K</p>
+            <p class="mb-0 ps-2">Clients <br> Worldwide</p>
+          </div>
+          <div class="cv col-sm-12 col-lg-3 col-md-3">
+            <a href="#" class="border rounded py-3 px-4"><span><i class="me-1 fa-solid fa-download"></i></span> C.V</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="progress-bar">
+      <div id="progress-fill"></div>
+    </div>
+  </section>
+  <!-- ***********************All content ************************ -->
+  <section id="allContent" class="container pb-5">
+    <!-- ************SERVICES Section**************** -->
+    <section id="services" class="container p-0">
+      <div class="row navbar-row justify-content-end m-0">
+        <nav class="navbar navbar-expand-lg col-offset-5">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PORTOFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PRICE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">BLOG</a>
+              </li>
+            </ul>
+          </div>
+
+        </nav>
+      </div>
+      <div class="services-title text-center " data-aos="zoom-in" data-aos-duration="1500">
+        <p class="section-name">OUR SERVICES</p>
+        <h2>Turn Information</h2>
+        <h2><span class="lemon-colored">Into Actionable</span> Insights</h2>
+      </div>
+      <div class="container px-0 py-5 w-100">
+        <div class="row justify-content-center gap-5 m-0">
+          <article class="col-12 col-md-5 col-lg-5" data-aos="fade-right" data-aos-duration="1500">
+            <span class="service-icon">
+              <img src="images/services/1.png" />
+            </span>
+            <h4>UI / UX DESIGN</h4>
+            <p class="m-0">There are many variations of passages of available but to the majority have suffered but the
+              into majority.</p>
+          </article>
+          <article class="col-12 col-md-5 col-lg-5" data-aos="fade-left" data-aos-duration="1500">
+            <span class="service-icon">
+              <img src="images/services/2.png" />
+            </span>
+            <h4>WEB DEVELOPMENT</h4>
+            <p class="m-0">There are many variations of passages of available but to the majority have suffered but the
+              into majority.</p>
+          </article>
+          <article class="col-12 col-md-5 col-lg-5" data-aos="fade-right" data-aos-duration="1500">
+            <span class="service-icon">
+              <img src="images/services/3.png" />
+            </span>
+            <h4>SEO / MARKETING</h4>
+            <p class="m-0">There are many variations of passages of available but to the majority have suffered but the
+              into majority.</p>
+          </article>
+          <article class="col-12 col-md-5 col-lg-5" data-aos="fade-left" data-aos-duration="1500">
+            <span class="service-icon">
+              <img src="images/services/4.png" />
+            </span>
+            <h4>TECHNOLOGY SOLUTION</h4>
+            <p class="m-0">There are many variations of passages of available but to the majority have suffered but the
+              into majority.</p>
+          </article>
+
+        </div>
+      </div>
+      <hr />
+    </section>
+    <!-- ************SKILLS Section**************** -->
+    <section id="skills" class="container px-5 my-5">
+      <div class="row justify-content-center">
+        <div class="skills-title my-4 col-12 col-md-12 col-lg-4 " data-aos="zoom-in" data-aos-duration="1500">
+          <p class="section-name">OUR SKILLS</p>
+          <h2><span class="lemon-colored">Awards</span> &</h2>
+          <h2 class="w-100"> Recognitions</h2>
+        </div>
+        <div class="col-12 col-md-12 col-lg-7">
+          <div class="row justify-content-center gap-4 mb-5">
+            <article class="col-12 col-md-5 col-lg-5 px-3 ">
+              <span class="d-inline-block my-2 skill-rate"></span>
+              <div class="d-flex justify-content-between align-items-center px-4 mb-3">
+                <span class="skills-icon">
+                  <img src="images/skills/s1.png" />
+                </span>
+                <h6 class="mb-0">UI / UX Design</h6>
+              </div>
+              <progress min="0" max="100" value="0" name="progress1"></progress>
+            </article>
+            <article class="col-12 col-md-5 col-lg-5 px-3 ">
+              <span class="d-inline-block my-2 skill-rate"></span>
+              <div class="d-flex justify-content-between align-items-center px-4 mb-3">
+                <span class="skills-icon">
+                  <img src="images/skills/s2.png" />
+                </span>
+                <h6 class="mb-0">Development</h6>
+              </div>
+              <progress min="0" max="100" value="0" name="progress1"></progress>
+            </article>
+            <article class="col-12 col-md-5 col-lg-5 px-3 ">
+              <span class="d-inline-block my-2 skill-rate"></span>
+              <div class="d-flex justify-content-between align-items-center px-4 mb-3">
+                <span class="skills-icon">
+                  <img src="images/skills/s3.png" />
+                </span>
+                <h6 class="mb-0">Graphic Design</h6>
+              </div>
+              <progress min="0" max="100" value="0" name="progress1"></progress>
+            </article>
+            <article class="col-12 col-md-5 col-lg-5 px-3 ">
+              <span class="d-inline-block my-2 skill-rate"></span>
+              <div class="d-flex justify-content-between align-items-center px-4 mb-3">
+                <span class="skills-icon">
+                  <img src="images/skills/s4.png" />
+                </span>
+                <h6 class="mb-0">WordPress</h6>
+              </div>
+              <progress min="0" max="100" value="0" name="progress1"></progress>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="designer-award row justify-content-center mb-4 gap-4 ">
+        <article class="col-12 col-md-5 col-lg-3" data-aos="fade-up" data-aos-duration="800">
+          <div class="d-flex justify-content-around align-items-center">
+            <span>01</span><span>2019</span>
+          </div>
+          <div class="awards-image my-5">
+            <img src="images/skills/1.png">
+          </div>
+          <div class="award-content">
+            <p>02x Designer Award</p>
+            <p class="lemon-colored">NOMINEE</p>
+          </div>
+        </article>
+        <article class="col-12 col-md-5 col-lg-3" data-aos="fade-up" data-aos-duration="1200">
+          <div class="d-flex justify-content-around align-items-center">
+            <span>01</span><span>2021</span>
+          </div>
+          <div class="awards-image my-5">
+            <img src="images/skills/2.png">
+          </div>
+          <div class="award-content">
+            <p>02x Designer Award</p>
+            <p class="lemon-colored">WINNER</p>
+          </div>
+        </article>
+        <article class="col-12 col-md-5 col-lg-3" data-aos="fade-up" data-aos-duration="1800">
+          <div class="d-flex justify-content-around align-items-center">
+            <span>01</span><span>2022</span>
+          </div>
+          <div class="awards-image my-5">
+            <img src="images/skills/3.png">
+          </div>
+          <div class="award-content">
+            <p>02x Designer Award</p>
+            <p class="lemon-colored">RUUNERS UP</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <hr />
+    <!-- ************PORTFOLIO Section**************** -->
+    <section id="portfolio" class="container px-5 position-relative mb-5">
+      <div class="row align-items-center justify-content-around">
+        <div class="portfolio-title col-12 col-md-7 col-lg-8" data-aos="zoom-in" data-aos-duration="1500">
+          <p class="section-name">OUR PORTFOLIO</p>
+          <h2>Look at my work &</h2>
+          <h2> give us <span class="lemon-colored">your feedback</span></h2>
+        </div>
+        <div class="view col-12 col-offset-1 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-duration="1500">View All
+          Works
+          <span class="ms-1"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+        </div>
+      </div>
+      <div class="row justify-content-center gap-5 my-5">
+        <article class="col-12 col-md-5 col-lg-5" data-aos="fade-up" data-aos-anchor-placement="top-center"
+          data-aos-duration="500">
+          <img src="images/portfolio/1.jpg" class="w-100  rounded-4 mb-3" />
+          <div class="one-portfolio d-flex align-items-center justify-content-between">
+            <div class="branding">
+              <button class="btn text-light border rounded-5 px-4 mb-3">Branding</button>
+              <h5>GeekFolio Portfolio</h5>
+            </div>
+            <span class="ms-2"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </article>
+        <article class="col-12 col-md-5 col-lg-5" data-aos="fade-up" data-aos-anchor-placement="top-center"
+          data-aos-duration="1500">
+          <img src="images/portfolio/2.jpg" class="w-100  rounded-4 mb-3" />
+          <div class="one-portfolio d-flex align-items-center justify-content-between">
+            <div class="branding">
+              <button class="btn text-light border rounded-5 px-4 mb-3">Branding</button>
+              <h5>Luxury Modern Website</h5>
+            </div>
+            <span class="ms-2"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </article>
+        <article class="col-12 col-md-5 col-lg-5" data-aos="fade-up" data-aos-anchor-placement="top-center"
+          data-aos-duration="2500">
+          <img src="images/portfolio/3.jpg" class="w-100  rounded-4 mb-3" />
+          <div class="one-portfolio d-flex align-items-center justify-content-between">
+            <div class="branding">
+              <button class="btn text-light border rounded-5 px-4 mb-3">Branding</button>
+              <h5>Partiner BPO</h5>
+            </div>
+            <span class="ms-2"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </article>
+        <article class="col-12 col-md-5 col-lg-5" data-aos="fade-up" data-aos-anchor-placement="top-center"
+          data-aos-duration="3000">
+          <img src="images/portfolio/4.jpg" class="w-100  rounded-4 mb-3" />
+          <div class="one-portfolio d-flex align-items-center justify-content-between">
+            <div class="branding">
+              <button class="btn text-light border rounded-5 px-4 mb-3">Branding</button>
+              <h5>From our gallery</h5>
+            </div>
+            <span class="ms-2"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </article>
+      </div>
+      <span class="quotes position-absolute"><i class="fa-solid fa-quote-left"></i></span>
+    </section>
+    <!-- ************TESTIMONIALS Section**************** -->
+    <section id="testimonials" class="container p-5">
+      <div class="testimonials-title py-5" data-aos="zoom-in" data-aos-duration="1500">
+        <p class="section-name">TESTIMONIALS</p>
+        <h2>Trusted by</h2>
+        <h2><span class="lemon-colored">Hundered Clients</span></h2>
+      </div>
+      <div class="slider row justify-content-around align-items-center my-2">
+        <div class="quote-slide col-2 col-md-2 col-lg-2" data-aos="fade-right" data-aos-anchor-placement="top-center"
+          data-aos-duration="1500">
+          <img src="images/testimonials/quote.png" />
+        </div>
+        <div id="carouselExample" class="col-12 col-md-12 col-lg-8 carousel slide" data-aos="flip-down"
+          data-aos-anchor-placement="top-center" data-aos-duration="1500">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <p class="stars">
+                <span>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+                <span>( 71 Reviews )</span>
+              </p>
+              <p>We have purchased well into the
+                thousands
+                of items, but this is without doubt one of the best we’ve
+                have
+                been
+                lucky enough to work on, the attention to detail apparent
+                throughout, and the delivery is impressively intuitive.</p>
+              <div class="test-one d-flex align-items-center">
+                <img src="images/testimonials/1.jpg" class="d-block">
+                <div>
+                  <p class="lemon-colored ms-4">Leonard Haiser</p>
+                  <p class="ms-4 w-100">Envato Customer</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <p class="stars">
+                <span>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </span>
+                <span>( 30 Reviews )</span>
+              </p>
+              <p>We have purchased well into the
+                thousands
+                of items, but this is without doubt one of the best we’ve
+                have
+                been
+                lucky enough to work on, the attention to detail apparent
+                throughout, and the delivery is impressively intuitive.</p>
+              <div class="test-one d-flex align-items-center">
+                <img src="images/testimonials/2.jpg" class="d-block">
+                <div>
+                  <p class="lemon-colored ms-4">Leonard Haiser</p>
+                  <p class="ms-4 w-100">Envato Customer</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <p class="stars">
+                <span>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                  <i class="fa-regular fa-star"></i>
+                </span>
+                <span>( 50 Reviews )</span>
+              </p>
+              <p>We have purchased well into the
+                thousands
+                of items, but this is without doubt one of the best we’ve
+                have
+                been
+                lucky enough to work on, the attention to detail apparent
+                throughout, and the delivery is impressively intuitive.</p>
+              <div class="test-one d-flex align-items-center">
+                <img src="images/testimonials/3.jpg" class="d-block">
+                <div>
+                  <p class="lemon-colored ms-4">Leonard Haiser</p>
+                  <p class="ms-4 w-100">Envato Customer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-btns position-relative offset-10 col-2 col-md-2 col-lg-1 mb-5">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span aria-hidden="true"><i class="fa-solid fa-arrow-left"></i></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- ************Best Pricing Section**************** -->
+    <section id="bestPricing" class=" p-0 my-5">
+      <div class="best-pricing-title py-5 text-center" data-aos="zoom-in" data-aos-duration="1500">
+        <p class="section-name">BEST PRICING</p>
+        <h2><span class="lemon-colored">Flexible</span> Pricing Plan</h2>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center gap-5 my-5">
+          <div class="plan-card col-10 col-md-5 col-lg-3 px-4 py-4 mb-5" data-aos="zoom-in-up" data-aos-duration="1500">
+            <span class="left"></span>
+            <p class="text-uppercase fw-bold plan-type text-center text-dark">Basic</p>
+            <span class="right"></span>
+            <span class="mb-3 price fs-1 lemon-colored">$9 </span>
+            <span>/ Hour</span>
+            <hr>
+            <ul class="list-unstyled p-0 my-4">
+              <li class="my-3 d-flex align-items-center">
+                <span class="me-3"><i class="fa-solid fa-check  lemon-colored"></i></span>
+                <span>Need your wireframe</span>
+              </li>
+              <li class="my-3 d-flex align-items-center">
+                <span class="me-3"><i class="fa-solid fa-check  lemon-colored"></i></span>
+                <span> Design with Figma, Framer</span>
+              </li>
+              <li class="my-3 d-flex align-items-center">
+                <span class="me-3"><i class="fa-solid fa-check  lemon-colored"></i></span>
+                <span>Implement with Webflow, React, WordPress, Laravel/PHP</span>
+              </li>
+              <li class="my-3 d-flex align-items-center">
+                <span class="me-3"><i class="fa-solid fa-check  lemon-colored"></i></span>
+                <span>Support 6 months</span>
+              </li>
+            </ul>
+            <div class="get-started text-center border rounded">
+              <a href="#" class="py-2">Get Started</a>
+            </div>
+          </div>
+          <div class="plan-card col-10 col-md-5 col-lg-3 px-4 py-4 mb-5" data-aos="zoom-in-up" data-aos-duration="1500">
+            <span class="left"></span>
+            <p class="text-uppercase fw-bold plan-type text-center text-dark">Popular</p>
+            <span class="right"></span>
+            <span class="mb-3 price fs-1 lemon-colored">$39 </span>
+            <span>/ Hour</span>
+            <hr>
+            <ul class="list-unstyled p-0 my-4">
+              <li class="my-3 d-flex align-items-center">
+                <span class="me-3"><i class="fa-solid fa-check  lemon-colored"></i></span>
+                <span>Need your wireframe</span>
+              </li>
+              <li class="my-3 d-flex align-items-center">
+                <span class="me-3"><i class="fa-solid fa-check  lemon-colored"></i></span>
+                <span> Design with Figma, Framer</span>
+              </li>
+              <li class="my-3 d-flex align-items-center">
+                <span class="me-3"><i class="fa-solid fa-check  lemon-colored"></i></span>
+                <span>Implement with Webflow, React, WordPress, Laravel/PHP</span>
+              </li>
+              <li class="my-3 d-flex align-items-center">
+                <span class="me-3"><i class="fa-solid fa-check  lemon-colored"></i></span>
+                <span>Support 6 months</span>
+              </li>
+              <li class="my-3 d-flex align-items-center">
+                <span class="me-3"><i class="fa-solid fa-check  lemon-colored"></i></span>
+                <span>Your project alway be priority</span>
+              </li>
+            </ul>
+            <div class="get-started text-center border rounded">
+              <a href="#" class="py-2">Get Started</a>
+            </div>
+          </div>
+          <div class="plan-card col-10 col-md-5 col-lg-3 px-4 py-4 mb-5" data-aos="zoom-in-up" data-aos-duration="1500">
+            <span class="left"></span>
+            <p class="text-uppercase fw-bold plan-type text-center text-dark">Premium</p>
+            <span class="right"></span>
+            <span class="mb-3 price fs-1 lemon-colored">$59 </span>
+            <span>/ Hour</span>
+            <hr>
+            <ul class="list-unstyled p-0 my-4">
+              <li class="my-3 d-flex align-items-center">
+                <span class="me-3"><i class="fa-solid fa-check  lemon-colored"></i></span>
+                <span>Need your wireframe</span>
+              </li>
+              <li class="my-3 d-flex align-items-center">
+                <span class="me-3"><i class="fa-solid fa-check  lemon-colored"></i></span>
+                <span> Design with Figma, Framer</span>
+              </li>
+              <li class="my-3 d-flex align-items-center">
+                <span class="me-3"><i class="fa-solid fa-check  lemon-colored"></i></span>
+                <span>Implement with Webflow, React, WordPress, Laravel/PHP</span>
+              </li>
+              <li class="my-3 d-flex align-items-center">
+                <span class="me-3"><i class="fa-solid fa-check  lemon-colored"></i></span>
+                <span>Support 6 months</span>
+              </li>
+            </ul>
+            <div class="get-started text-center border rounded">
+              <a href="#" class="py-2">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </section>
+    <!-- ************GET IN TOUCH Section**************** -->
+    <section id="getIn" class="container my-5 p-0">
+      <div class="row justify-content-center gap-4 py-5 px-5">
+        <div class="col-12 col-md-12 col-lg-5">
+          <div class="get-in-title" data-aos="zoom-in" data-aos-duration="1500">
+            <p class="section-name">GET IN TOUCH </p>
+            <h2>Let's make your brand brilliant!</h2>
+            <p class="my-5">If you would like to work with us or just want to get in touch, we’d love to hear from you!
+            </p>
+            <h5 class="lemon-colored fw-bold">+1 840 841 25 69</h5>
+          </div>
+          <div class="social-media">
+            <ul class="list-unstyled d-flex justify-content-between align-items-center my-5">
+              <li data-aos="fade-up" data-aos-duration="1500"><a href="">Facebook</a></li>
+              <li data-aos="fade-down" data-aos-duration="1500"><a href="">Twitter</a></li>
+              <li data-aos="fade-up" data-aos-duration="1500"><a href="">LinkedIn</a></li>
+              <li data-aos="fade-down" data-aos-duration="1500"><a href="">Instagrem</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-6">
+          <form class="row g-3 needs-validation">
+            <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
+              <input type="text" class="position-relative py-2 bg-transparent text-light form-control" id="name"
+                placeholder="Name">
+              <div class="wrong-icon position-absolute"><i class="fa-regular fa-circle-xmark"></i></div>
+              <div class="error">
+                Enter Valid Name Plz!
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
+              <input type="text" class="position-relative py-2 bg-transparent form-control text-light" id="email"
+                placeholder="Email">
+              <div class="wrong-icon position-absolute"><i class="fa-regular fa-circle-xmark"></i></div>
+              <div class="error">Enter Valid Email Plz!</div>
+            </div>
+            <div class="col-md-12" data-aos="fade-left" data-aos-duration="1500">
+              <input type="text" class="position-relativepy-3 form-control bg-transparent text-light"
+                placeholder="subject" id="subject" aria-describedby="validationServer03Feedback">
+              <div class="wrong-icon position-absolute"><i class="fa-regular fa-circle-xmark"></i></div>
+              <div class="error"> Please enter a valid subject more than 10 character</div>
+            </div>
+            <div class="mb-3" data-aos="fade-right" data-aos-duration="1500">
+              <textarea rows="8" class=" bg-transparent text-light form-control" id="validationTextarea"
+                placeholder="Message"></textarea>
+              <div class="valid-feedback" id="validationTextareaFeedback">
+                Please enter a message in the textarea.
+              </div>
+            </div>
+            <div class="col-12" data-aos="zoom-in" data-aos-duration="1500">
+              <button class="send py-3 btn border w-100" type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <hr>
+    </section>
+    <!-- ************BLOG Section**************** -->
+    <section id="blog" class="container px-5 position-relative">
+      <div class="row align-items-center justify-content-around">
+        <div class="blog-title col-12 col-md-8 col-lg-8" data-aos="zoom-in" data-aos-duration="1500">
+          <p class="section-name">OUR BLOG</p>
+          <h2>Latest News & <span class="lemon-colored">Blog</span></h2>
+        </div>
+        <div class="view col-12 col-offset-2 col-md-2 col-lg-2" data-aos="zoom-in" data-aos-duration="1500">View All
+          Posts <span class="ms-2"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+      </div>
+      <div class="row justify-content-center my-5 gap-4">
+        <div class="card bg-transparent p-0 col-12 col-md-5 col-lg-3" data-aos="flip-up" data-aos-duration="500">
+          <img src="images/blog/1.jpg" class="card-img-top w-100">
+          <div class="card-body ">
+            <p class="card-title text-light border rounded-5 text-center w-50 p-2">
+              <span class="me-2"><i class=" lemon-colored fa-solid fa-calendar-days"></i></span>
+              6 , AUG 2022
+            </p>
+            <a href="#">12 unique examples of portfolio websites.</a>
+          </div>
+          <div class="comments d-flex justify-content-around align-items-center w-100 ">
+            <p><span class="me-2"><i class="fa-solid fa-comments"></i></span> 2 Comments</p>
+            <p>Read More <span class="ms-2"><i class="fa-solid fa-arrow-right-long"></i></span> </p>
+          </div>
+        </div>
+        <div class="card bg-transparent p-0 col-12 col-md-5 col-lg-3" data-aos="flip-up" data-aos-duration="1500">
+          <img src="images/blog/2.jpg" class="card-img-top w-100">
+          <div class="card-body ">
+            <p class="card-title text-light border rounded-5 text-center w-50 p-2">
+              <span class="me-2"><i class=" lemon-colored fa-solid fa-calendar-days"></i></span>
+              6 , AUG 2022
+            </p>
+            <a href="#">Dealing with spring allergy symptoms.</a>
+          </div>
+          <div class="comments d-flex justify-content-around align-items-center w-100 ">
+            <p><span class="me-2"><i class="fa-solid fa-comments"></i></span> 2 Comments</p>
+            <p>Read More <span class="ms-2"><i class="fa-solid fa-arrow-right-long"></i></span> </p>
+          </div>
+        </div>
+        <div class="card bg-transparent p-0 col-12 col-md-5 col-lg-3" data-aos="flip-up" data-aos-duration="2500">
+          <img src="images/blog/3.jpg" class="card-img-top w-100">
+          <div class="card-body ">
+            <p class="card-title text-light border rounded-5 text-center w-50 p-2">
+              <span class="me-2"><i class=" lemon-colored fa-solid fa-calendar-days"></i></span>
+              6 , AUG 2022
+            </p>
+            <a href="#">Best wireframe tools for web designers.</a>
+          </div>
+          <div class="comments d-flex justify-content-around align-items-center w-100 ">
+            <p><span class="me-2"><i class="fa-solid fa-comments"></i></span> 2 Comments</p>
+            <p>Read More <span class="ms-2"><i class="fa-solid fa-arrow-right-long"></i></span> </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </section>
+  <!-- ********************Footer ******************************* -->
+  <footer class="container my-3 text-center">
+    <p>© 2023 Gavi is Proudly Designed by <span class="lemon-colored">Renad Ibrahim</span></p>
+  </footer>
+  <!-- ***********************Bootstrap Script ********************* -->
+  <script src="js/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- ************************AOS animation library********************* -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- ************************JQuery *************************** -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <!-- ***********************General Script ********************* -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>

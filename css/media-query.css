@@ -1,0 +1,449 @@
+@media (max-width : 370px) {
+
+    .welcome-info h1,
+    .services-title h2,
+    .portfolio-title h2,
+    .skills-title h2,
+    .testimonials-title h2,
+    .blog-title h2,
+    .get-in-title h2 {
+        font-size: 1.5rem;
+    }
+
+    .plan-type {
+        display: none;
+    }
+
+    .plan-card .left,
+    .plan-card .right {
+        display: none;
+    }
+
+    .plan-card {
+        border-radius: 15px;
+    }
+
+    .social-list,
+    .info,
+    .contact,
+    .welcome-info::after,
+    .navbar,
+    .quote-slide {
+        display: none;
+    }
+
+    .nav-top .nav-butn {
+        display: block !important;
+        margin-top: 38px;
+    }
+
+    .welcome-info {
+        margin-top: 8rem;
+        padding: 2rem;
+    }
+
+    .welcome-info h1 {
+        font-size: 2rem;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: 30px;
+    }
+
+    .carousel-control-prev span i,
+    .carousel-control-next span i {
+        font-size: 15px;
+        padding: 9px;
+    }
+
+    #allContent {
+        border-radius: 10px !important;
+    }
+
+    .get-in-title h5 {
+        font-size: 25px;
+    }
+
+    #getIn .social-media ul li {
+        flex-direction: column;
+    }
+
+    .quotes {
+        right: 40px;
+        bottom: -160px;
+    }
+
+    .quotes i {
+        font-size: 10rem;
+    }
+}
+
+@media (min-width : 370px) and (max-width : 430px) {
+
+    .welcome-info h1,
+    .services-title h2,
+    .portfolio-title h2,
+    .skills-title h2,
+    .testimonials-title h2,
+    .blog-title h2,
+    .get-in-title h2 {
+        font-size: 1.5rem;
+    }
+
+    .navbar,
+    .contact,
+    .social-list,
+    .info,
+    .welcome-info::after,
+    .quote-slide {
+        display: none;
+    }
+
+    .plan-type {
+        left: 95px;
+    }
+
+    .nav-top .nav-butn {
+        display: block !important;
+        margin-top: 38px;
+    }
+
+    .welcome-info {
+        margin-top: 8rem;
+        padding: 2rem;
+    }
+
+    .welcome-info h1 {
+        font-size: 2rem;
+    }
+
+    #allContent {
+        border-radius: 10px !important;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: 30px;
+    }
+
+    .carousel-control-prev span i,
+    .carousel-control-next span i {
+        font-size: 15px;
+        padding: 9px;
+    }
+
+    .get-in-title h5 {
+        font-size: 25px;
+    }
+
+    .quotes {
+        right: 40px;
+        bottom: -160px;
+    }
+
+    .quotes i {
+        font-size: 10rem;
+    }
+}
+
+@media (min-width:431px) and (max-width : 600px) {
+
+    .welcome-info h1,
+    .services-title h2,
+    .portfolio-title h2,
+    .skills-title h2,
+    .testimonials-title h2,
+    .blog-title h2,
+    .get-in-title h2 {
+        font-size: 1.5rem;
+    }
+
+    .plan-type {
+        left: 120px;
+    }
+
+    .contact,
+    .social-list,
+    .info,
+    .welcome-info::after,
+    .navbar,
+    .quote-slide {
+        display: none;
+    }
+
+    .nav-top .nav-butn {
+        display: block !important;
+        margin-top: 38px;
+    }
+
+    .welcome-info {
+        margin-top: 10rem;
+        padding: 2rem;
+    }
+
+    .welcome-info h1 {
+        font-size: 2rem;
+    }
+
+    #allContent {
+        border-radius: 10px !important;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: 30px;
+    }
+
+    .carousel-control-prev span i,
+    .carousel-control-next span i {
+        font-size: 15px;
+        padding: 9px;
+    }
+
+    .get-in-title h5 {
+        font-size: 25px;
+    }
+
+    #getIn .social-media ul {
+        flex-direction: column;
+    }
+
+    .quotes {
+        right: 40px;
+        bottom: -160px;
+    }
+
+    .quotes i {
+        font-size: 10rem;
+    }
+}
+
+@media (min-width:601px) and (max-width:768px) {
+
+    .social-list,
+    .info,
+    .contact,
+    .welcome-info::after  {
+        display: none;
+    }
+
+    .nav-top .nav-butn {
+        display: block !important;
+        margin-top: 38px;
+    }
+
+    .welcome-info h1,
+    .services-title h2,
+    .portfolio-title h2,
+    .skills-title h2,
+    .testimonials-title h2,
+    .blog-title h2,
+    .get-in-title h2 {
+        font-size: 1.8rem;
+    }
+    /* ***************************Hero************************** */
+    .welcome-info {
+        margin-top: 2rem;
+        padding: 0 2rem;
+    }
+
+    .card {
+        height: 100%;
+        margin-left: 0 !important;
+    }
+
+    .card-container {
+        margin-bottom: 0;
+    }
+
+    /*********************SERVICES SECTION******************* */
+    #allContent {
+        border-radius: 10px;
+    }
+
+    .navbar-row {
+        display: none;
+    }
+
+    .services-title {
+        padding-top: 3rem !important;
+    }
+
+    #services .navbar::after {
+        display: none;
+    }
+
+    /* ***************************SKILLS Section ************************ */
+    #skills .skills-title {
+        text-align: center;
+    }
+
+    /********************* Testimonials SECTION******************** */
+    .quote-slide {
+        display: none;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: 30px;
+    }
+
+    .carousel-control-prev span i,
+    .carousel-control-next span i {
+        font-size: 15px;
+        padding: 9px;
+    }
+
+    .quotes {
+        bottom: -140px;
+    }
+
+    .quotes i {
+        font-size: 8rem;
+    }
+
+    /************************** Best price SECTION******************** */
+    .plan-type {
+        left: 155px;
+    }
+
+    .plan-card .left,
+    .plan-card .right {
+        width: 20%;
+    }
+}
+
+/* ****************************************************************************************** */
+@media (min-width:769px) and (max-width:992px) {
+
+    .social-list,
+    .info {
+        display: none;
+    }
+
+    .nav-top .nav-butn {
+        display: block !important;
+        margin-top: 38px;
+    }
+
+    .welcome-info h1,
+    .services-title h2,
+    .portfolio-title h2,
+    .skills-title h2,
+    .testimonials-title h2,
+    .blog-title h2,
+    .get-in-title h2 {
+        font-size: 2rem;
+    }
+
+    .welcome-info {
+        margin-bottom: 2rem !important;
+        margin-left: 0 !important;
+        padding: 2rem;
+    }
+
+    .card {
+        height: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .card-container {
+        margin-bottom: 0;
+    }
+
+    .welcome-info::after {
+        display: none;
+    }
+
+    .social-list-profile ul li a i {
+        padding: 0.5rem 0.5rem !important;
+    }
+
+    /**********************SERVICES SECTION********************* */
+    .navbar-row {
+        display: none;
+    }
+
+    #allContent {
+        border-radius: 10px;
+    }
+
+    .services-title {
+        padding-top: 3rem !important;
+    }
+
+    #services .navbar::after {
+        display: none;
+    }
+
+    /** ******************SKILLS Section *************************/
+    #skills .skills-title {
+        text-align: center;
+    }
+
+    /*************************** Testimonials SECTION******************** */
+    .quote-slide {
+        display: none;
+    }
+
+    .carousel-control-prev span i,
+    .carousel-control-next span i {
+        font-size: 15px;
+        padding: 9px;
+    }
+
+}
+
+/* ******************************************************************************************** */
+@media (min-width:993px) and (max-width:1400px) {
+    #navbarSupportedContent {
+        display: none;
+    }
+
+    .card {
+        margin-left: 3rem;
+    }
+
+    .social-list-profile ul li a i {
+        padding: 0.5rem 0.5rem !important;
+    }
+
+    .welcome-info h1 {
+        font-size: 2.6rem;
+    }
+
+    .icon {
+        padding: 5px;
+    }
+
+    .icon:nth-of-type(1) {
+        top: 4rem;
+        left: 0;
+    }
+
+    .icon:nth-of-type(2) {
+        right: 0.5rem;
+        bottom: 18rem;
+    }
+
+    .icon:nth-of-type(3) {
+        bottom: 14rem;
+        left: 3.5rem;
+    }
+
+    .card {
+        margin-left: 4rem !important;
+    }
+
+    /* ********************SERVICES *************************/
+    #services .navbar {
+        width: 50%;
+    }
+
+    /** ******************SKILLS Section *********************/
+    #skills .skills-title {
+        text-align: center;
+    }
+
+}
