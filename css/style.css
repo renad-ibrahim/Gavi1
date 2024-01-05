@@ -183,6 +183,7 @@ ul {
     position: fixed;
     left: 0px;
     right: 0px;
+    bottom: 0;
     top: 80px;
     background-color: rgba(0, 0, 0, 0.863);
     color: #fff;
